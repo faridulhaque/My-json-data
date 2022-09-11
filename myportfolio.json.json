@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Cure Tools",
+    "live": "https://cure-tools.web.app/",
+    "codeClient": "https://github.com/faridulhaque/cure-tools-client",
+    "codeServer": "https://github.com/faridulhaque/cure-tools-server",
+    "description": "The website was built for a manufacturing farm that provides medical equipments for the dentists.",
+    "img": "./images/curetools.png",
+    "video": "",
+    "images": {
+      "first": "https://i.ibb.co/0h9QqFm/ctmyorders.png",
+      "second": "https://i.ibb.co/QrFckz0/ctmanageorders.png",
+      "third": "https://i.ibb.co/n72ZhCw/ctmanageusers.png",
+      "fourth": "https://i.ibb.co/qpjG1nq/ctprofile.png",
+      "fifth": "https://i.ibb.co/88gJFzn/ctreviews.png"
+    },
+
+    "details": {
+      "first": "This is the 'My Orders' page which is accessible for normal users only. The user can pay for his item or cancel the order. After payment, 'payment status' will be changed from pending to paid.",
+      "second": "The page 'Manage Orders' is for admins only. The 'Shipment' button becomes enabled when the payment status is paid and turns disabled back when it is clicked. ",
+      "third": "An admin can make a normal user admin and remove any user from the database. If any of the users is already an admin, the button in his row will remain disabled.",
+      "fourth": "That is the 'My Profile' page, which is the most tricky one on this site. Both admin and the normal user will see the page. They can edit the profile by clicking the edit button and can save new information.",
+      "fifth": "A user can give feedback and his feedback will appear on the home page."
+    },
+    "features": {
+      "first": "The site is accessible to both admins and users.",
+      "second": "The admin will see features like 'Add an item', 'My item, 'Orders (submitted by the users), 'My profile', 'Manage orders' etc.",
+      "third": "The user can see 'My orders', 'My profile', and 'Add a review' page.",
+      "fourth": "There are some more features like payment option, shipment option, etc based on the role of the visitor",
+      "fifth": "The website was created using HTML, CSS, Bootstrap, React, Firebase, and Node JS"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Fresh Fruit",
+    "live": "https://assignment-11-ce30f.web.app/",
+    "codeClient": "https://github.com/faridulhaque/Fresh-Fruit",
+    "codeServer": "https://github.com/faridulhaque/Fresh-Fruit-Server",
+    "description": "This website is designed for a whole-seller company that imports fruits or buys them from the farms and sells to the retailers.",
+    "img": "./images/freshfruit.png",
+    "video": "",
+    "images": {
+      "first": "https://i.ibb.co/Q9WcM0S/ffmanageitem.png",
+      "second": "https://i.ibb.co/XsVsL4d/ffadditem.png",
+      "third": "https://i.ibb.co/y8Kp4n3/ffedititem.png",
+      "forth": "",
+      "fifth": ""
+    },
+
+    "details": {
+      "first": "The admin can see this page and he can edit or delete the item. Clicking on the green icon will take the admin to the page of that specific item he wanted to update about.",
+      "second": "Admins can add items by filling out the fields in the UI. The email field is automatically filled with the admin's email. if any of the numbers' values are below 1, an error will be shown. ",
+      "third": "When the 'Delivered' button is clicked, the quantity will decrease and the number of the 'sold' will increase. Also, the quantity will increase based on the number you input in the 'Restock your item' field when the 'Restock Item' button is clicked.",
+      "forth": "",
+      "fifth": ""
+    },
+    "features": {
+      "first": "The site is now available for admins only.",
+      "second": "(After signing in) An admin can add an item, increase the quantities of the items, update delivered items' quantities and delete one or more items.",
+      "third": "An admin can see the items added by himself and update them as well.",
+      "fourth": "The website was created using HTML, CSS, Bootstrap, React, Firebase, and Node JS.",
+      "fifth": ""
+    }
+  },
+
+  {
+    "id": "3",
+    "name": "Pet Care",
+    "live": "https://petcare-b3672.web.app/",
+    "codeClient": "https://github.com/faridulhaque/Pet-Care",
+    "codeServer": "",
+    "description": "That is a personal website for a vet Who provides healthcare for pets.",
+    "img": "./images/Pet-Care-1.png",
+    "video": "",
+    "images": {
+      "first": "https://i.ibb.co/KjGCz6m/Pet-Care-1.png",
+      "second": "",
+      "third": "https://i.ibb.co/mt7kzMG/Pet-Care.png",
+      "fourth": "https://i.ibb.co/k5KctWX/Pet-Care-2.png",
+      "fifth": ""
+    },
+    "details": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "forth": "",
+      "fifth": ""
+    },
+    "features": {
+      "first": "The site is accessible to clients.",
+      "second": "The site is responsive to small devices.",
+      "third": "HTML, CSS, Bootstrap, and Firebase were used to build the site.",
+      "fourth": "",
+      "fifth": ""
+    }
+  }
+]
